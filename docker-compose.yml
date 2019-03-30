@@ -1,0 +1,9 @@
+
+version: '3.7'
+
+services:
+  web:
+    image: go-dockernew
+    build: .
+    ports:
+      - "5000:5000"
